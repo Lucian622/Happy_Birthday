@@ -37,6 +37,7 @@ color: purple;
 font-size: 70px;
 }
 .section{
+	position: relative;
 	background-color:rgba(133, 20, 133, 0.4);
 	border-radius: 3%;
 }
@@ -62,7 +63,7 @@ font-size: 70px;
 	width: 302px;
 	position: absolute;
 	left: 50%;
-	bottom: 3%;
+	bottom: 0%;
 	margin-left: -151px;
 	text-align: center;
 	font-size: 22px !important;
