@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Rubik+Puddles&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#d55bc9">
+<meta name="msapplication-TileColor" content="#9f00a7">
+<meta name="theme-color" content="#f14ef9">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="logo.css">
+	<title>Happy Birthday</title>
+	
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="header__logo title">Happy Birthday
+			<div class="aurora">
+				<div class="aurora__item"></div>
+				<div class="aurora__item"></div>
+				<div class="aurora__item"></div>
+				<div class="aurora__item"></div>
+			</div>
+		</h1>
+	</header>
+
+	<section class="section">
+		<h1 class="section__logo">Dear Karisha</h1>
+		<div class="container">
+		<p class="section__paragraph">З Днем народження!🧁🍾🥂 Дякую 🙏Богові, що він посилав таку людину на моєму шляху. Ти чудовий приклад незламності та стійкості, віри та сміливості! 🎉🎈🎉Здоров’я, щастя й 💙🕊️💛мирного неба!</p>
+		</div>
+	</section>
+	
+   <section>
+	<div class="ribbon">
+		<div class="ribbon-stitches-top"></div>
+		<div class="ribbon-content"><p><b>Сьогодні тобі 23 роки. <br>Твоє життя лише починається</b></p></div>
+		<div class="ribbon-stitches-bottom"></div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+<script>
+	import React from "https://esm.run/react@18";
+import { createRoot } from "https://esm.run/react-dom@18/client";
+import confetti from "https://esm.run/canvas-confetti@1";
+
+function App() {
+function onClick() {
+confetti({
+      particleCount: 150,
+      spread: 60
+});
+}
+
+return (
+<button className="button" onClick={onClick}>
+<span>🎉</span>
+<span>Like</span>
+</button>
+);
+}
+
+createRoot(document.getElementById("root")).render(<App />);
+</script>
+
+</body>
+</html>

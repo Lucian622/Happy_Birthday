@@ -1,0 +1,136 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	height: 100%;
+	display: grid;
+	place-items: center;
+	margin: 0;
+	padding: 0;
+	background: #CB60B3;
+background: linear-gradient(to right, #CB60B3 0%, #C146A1 50%, #A80077 51%, #DB36A4 100%);
+
+	font-family: 'Rubik Puddles', Courier, monospace;
+	animation: rotate 6s infini alternate	linear;}
+
+.header{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	width: 100%;
+	height: 300px;
+	border-radius: 3%;
+	overflow: hidden;
+	
+
+	background-image:url(./images/—Pngtree—gradient\ pink\ birthday\ balloon\ small_1229104.jpg);
+	background-size: cover;
+}
+.header__logo{
+	position: absolute;
+	bottom: 5px;
+align-items: center;
+justify-content: center;
+color: purple;
+font-size: 70px;
+}
+.section{
+	background-color:rgba(133, 20, 133, 0.4);
+	border-radius: 3%;
+}
+.section__logo{
+	display: flex;
+	align-items: center;
+	padding-left: 70px;
+	font-weight: 700;
+	font-size: 30px;
+	color:pink;
+}
+.section__paragraph{
+	font-family: 'Pacifico', Courier, monospace;
+	color: black;
+	font-size: 20px;
+	padding-left: 15px;
+	text-shadow: 9px 6px 2px rgba(184, 226, 187, 0.68);
+}
+
+/*ЛЕНТА*/
+
+.ribbon {
+	width: 302px;
+	position: absolute;
+	left: 50%;
+	bottom: 3%;
+	margin-left: -151px;
+	text-align: center;
+	font-size: 22px !important;
+	background: #D90D51;
+	background: linear-gradient(to bottom, #D90D51, #B84B5A);
+	box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+	font-family: 'Helvetica Neue',Helvetica, sans-serif;
+}
+
+.ribbon p {
+	font-family: 'Dancing Script', Arial, sans-serif;
+	font-size: 26px !important;
+	color: #8A767C;
+	text-shadow: #4BFAD7 0 1px 0;
+	margin:0px;
+	padding: 19px 10px;
+}
+
+.ribbon:before, .ribbon:after {
+	content: '';
+	position: absolute;
+	display: block;
+	bottom: -1em;
+	border: 1.5em solid #CC3165;
+	z-index: -1;
+}
+
+.ribbon:before {
+	left: -2em;
+	border-right-width: 1.5em;
+	border-left-color: transparent;
+	box-shadow: rgba(0,0,0,0.4) 1px 1px 1px;
+}
+
+.ribbon:after {
+	right: -2em;
+	border-left-width: 1.5em;
+	border-right-color: transparent;
+	box-shadow: rgba(0,0,0,0.4) -1px 1px 1px;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+	border-color: #E649C6 transparent transparent transparent;
+	position: absolute;
+	display: block;
+	border-style: solid;
+	bottom: -1em;
+	content: '';
+}
+
+.ribbon .ribbon-content:before {
+	left: 0;
+	border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+	right: 0;
+	border-width: 1em 1em 0 0;
+}
+
+.ribbon-stitches-top {
+	margin-top:2px;
+	border-top: 1px dashed rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
+}
+
+.ribbon-stitches-bottom {
+	margin-bottom:2px;
+	border-top: 1px dashed rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+}
