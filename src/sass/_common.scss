@@ -20,14 +20,19 @@ body {
   // place-items: center;
   // margin: 0;
   // padding: 0;
-  background: #cb60b3;
-  background: linear-gradient(
-    to right,
-    #cb60b3 0%,
-    #c146a1 50%,
-    #a80077 51%,
-    #db36a4 100%
-  );
+  
+  background-image:linear-gradient(to right, rgba(210, 230, 25, 0.425), rgba(207, 21, 145, 0.527), rgba(86, 231, 224, 0.575)),
+  url('../images/Body-fon.jpg');
+  background-repeat:repeat;
+  background-position: center;
+  //background: #cb60b3;
+  //background: linear-gradient(
+  //  to right,
+  //  #cb60b3 0%,
+  //  #c146a1 50%,
+  //  #a80077 51%,
+  //  #db36a4 100%
+  //);
 
   font-family: 'Rubik Puddles', Courier, monospace;
   animation: rotate 6s infinite alternate linear;
@@ -80,6 +85,11 @@ img {
 .section {
   position: relative;
   background-color: rgba(133, 20, 133, 0.4);
+  background-image:linear-gradient(to right, rgba(35, 191, 238, 0.3), rgb(232, 41, 250, 0.4)),
+  url('../images/Roses.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 3%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -93,18 +103,19 @@ img {
   // margin: 0px;
   margin-bottom: 30px;
   font-weight: 700;
-  font-size: 30px;
-  color: pink;
+  font-size: 40px;
+  color: rgb(235, 17, 216);
   cursor: pointer;
   text-align: center;
 
   transition: 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .section__logo:hover {
-  color: black;
+  color: rgb(20, 192, 223);
 }
 .section__paragraph {
   font-family: 'Pacifico', Courier, monospace;
+  letter-spacing: 1.2;
   color: black;
   font-size: 25px;
   text-align: left;
@@ -114,7 +125,7 @@ img {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
 /*ЛЕНТА*/
@@ -123,7 +134,7 @@ img {
   width: 302px;
   position: absolute;
   bottom: -15%;
-  right: 18%;
+  right: 16%;
   margin-left: -151px;
   text-align: center;
   font-size: 22px !important;
@@ -210,10 +221,11 @@ img {
   position: relative;
 }
 .fon {
-  padding: 30px 0;
-  background-color: crimson;
+  padding: 55px 0;
+  background: rgb(230,15,113);
+  background: radial-gradient(circle, rgba(230,15,113,1) 0%, rgba(41,206,240,1) 50%, rgba(63,191,164,0.7315301120448179) 68%);
   border-radius: 10px;
-  border: 1px solid rgb(219, 48, 48);
+  border: 3px solid rgb(35, 241, 35);
   text-align: center;
 }
 .section__2 {
