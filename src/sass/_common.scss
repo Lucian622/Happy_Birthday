@@ -217,6 +217,10 @@ img {
   height: 100%;
   overflow: hidden;
 }
+
+.section-swipe {
+  padding-bottom: 50px;
+}
 .gallery {
   position: relative;
 }
@@ -267,6 +271,7 @@ img {
   z-index: 4;
   background: url('../images/pink-balloons-arrangement.jpg') no-repeat, center;
   background-attachment: fixed;
+  background-size: cover;
   transition: 1.2s linear;
 }
 .overlay:hover {
